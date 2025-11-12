@@ -1,0 +1,176 @@
+{
+  "SLAM": {
+    "2410.10669": {
+      "date": "2025-11-07",
+      "title": "MLP-SLAM: Multilayer Perceptron-Based Simultaneous Localization and Mapping",
+      "url": "http://arxiv.org/abs/2410.10669v2",
+      "paper_id": "2410.10669v2",
+      "authors": "Taozhe Li, Wei Sun",
+      "first_author": "Taozhe Li",
+      "primary_category": "cs.RO",
+      "abstract": "The Visual Simultaneous Localization and Mapping (V-SLAM) system has seen significant development in recent years, demonstrating high precision in environments with limited dynamic objects. However, their performance significantly deteriorates when deployed in settings with a higher presence of movable objects, such as environments with pedestrians, cars, and buses, which are common in outdoor scenes. To address this issue, we propose a Multilayer Perceptron (MLP)-based real-time stereo SLAM system that leverages complete geometry information to avoid information loss. Moreover, there is currently no publicly available dataset for directly evaluating the effectiveness of dynamic and static feature classification methods, and to bridge this gap, we have created a publicly available dataset containing over 50,000 feature points. Experimental results demonstrate that our MLP-based dynamic and static feature point discriminator has achieved superior performance compared to other methods on this dataset. Furthermore, the MLP-based real-time stereo SLAM system has shown the highest average precision and fastest speed on the outdoor KITTI tracking datasets compared to other dynamic SLAM systems.The open-source code and datasets are available at https://github.com/TaozheLi/MLP-SLAM.",
+      "topic": "SLAM",
+      "md_row": "|**2025-11-07**|**MLP-SLAM: Multilayer Perceptron-Based Simultaneous Localization and Mapping**|Taozhe Li et al.|[2410.10669v2](http://arxiv.org/abs/2410.10669v2)|\n"
+    },
+    "2509.16909": {
+      "date": "2025-09-23",
+      "title": "SLAM-Former: Putting SLAM into One Transformer",
+      "url": "http://arxiv.org/abs/2509.16909v1",
+      "paper_id": "2509.16909v1",
+      "authors": "Yijun Yuan, Zhuoguang Chen, Kenan Li, Weibang Wang, Hang Zhao",
+      "first_author": "Yijun Yuan",
+      "primary_category": "cs.CV",
+      "abstract": "We present SLAM-Former, a novel neural approach that integrates full SLAM capabilities into a single transformer. Similar to traditional SLAM systems, SLAM-Former comprises both a frontend and a backend that operate in tandem. The frontend processes sequential monocular images in real-time for incremental mapping and tracking, while the backend performs global refinement to ensure a geometrically consistent result. This alternating execution allows the frontend and backend to mutually promote one another, enhancing overall system performance. Comprehensive experimental results demonstrate that SLAM-Former achieves superior or highly competitive performance compared to state-of-the-art dense SLAM methods.",
+      "topic": "SLAM",
+      "md_row": "|**2025-09-23**|**SLAM-Former: Putting SLAM into One Transformer**|Yijun Yuan et al.|[2509.16909v1](http://arxiv.org/abs/2509.16909v1)|\n"
+    },
+    "2411.08279": {
+      "date": "2025-08-11",
+      "title": "MBA-SLAM: Motion Blur Aware Gaussian Splatting SLAM",
+      "url": "http://arxiv.org/abs/2411.08279v2",
+      "paper_id": "2411.08279v2",
+      "authors": "Peng Wang, Lingzhe Zhao, Yin Zhang, Shiyu Zhao, Peidong Liu",
+      "first_author": "Peng Wang",
+      "primary_category": "cs.CV",
+      "abstract": "Emerging 3D scene representations, such as Neural Radiance Fields (NeRF) and 3D Gaussian Splatting (3DGS), have demonstrated their effectiveness in Simultaneous Localization and Mapping (SLAM) for photo-realistic rendering, particularly when using high-quality video sequences as input. However, existing methods struggle with motion-blurred frames, which are common in real-world scenarios like low-light or long-exposure conditions. This often results in a significant reduction in both camera localization accuracy and map reconstruction quality. To address this challenge, we propose a dense visual deblur SLAM pipeline (i.e. MBA-SLAM) to handle severe motion-blurred inputs and enhance image deblurring. Our approach integrates an efficient motion blur-aware tracker with either neural radiance fields or Gaussian Splatting based mapper. By accurately modeling the physical image formation process of motion-blurred images, our method simultaneously learns 3D scene representation and estimates the cameras' local trajectory during exposure time, enabling proactive compensation for motion blur caused by camera movement. In our experiments, we demonstrate that MBA-SLAM surpasses previous state-of-the-art methods in both camera localization and map reconstruction, showcasing superior performance across a range of datasets, including synthetic and real datasets featuring sharp images as well as those affected by motion blur, highlighting the versatility and robustness of our approach. Code is available at https://github.com/WU-CVGL/MBA-SLAM.",
+      "topic": "SLAM",
+      "md_row": "|**2025-08-11**|**MBA-SLAM: Motion Blur Aware Gaussian Splatting SLAM**|Peng Wang et al.|[2411.08279v2](http://arxiv.org/abs/2411.08279v2)|\n"
+    },
+    "2510.16205": {
+      "date": "2025-10-21",
+      "title": "VAR-SLAM: Visual Adaptive and Robust SLAM for Dynamic Environments",
+      "url": "http://arxiv.org/abs/2510.16205v1",
+      "paper_id": "2510.16205v1",
+      "authors": "João Carlos Virgolino Soares, Gabriel Fischer Abati, Claudio Semini",
+      "first_author": "João Carlos Virgolino Soares",
+      "primary_category": "cs.RO",
+      "abstract": "Visual SLAM in dynamic environments remains challenging, as several existing methods rely on semantic filtering that only handles known object classes, or use fixed robust kernels that cannot adapt to unknown moving objects, leading to degraded accuracy when they appear in the scene. We present VAR-SLAM (Visual Adaptive and Robust SLAM), an ORB-SLAM3-based system that combines a lightweight semantic keypoint filter to deal with known moving objects, with Barron's adaptive robust loss to handle unknown ones. The shape parameter of the robust kernel is estimated online from residuals, allowing the system to automatically adjust between Gaussian and heavy-tailed behavior. We evaluate VAR-SLAM on the TUM RGB-D, Bonn RGB-D Dynamic, and OpenLORIS datasets, which include both known and unknown moving objects. Results show improved trajectory accuracy and robustness over state-of-the-art baselines, achieving up to 25% lower ATE RMSE than NGD-SLAM on challenging sequences, while maintaining performance at 27 FPS on average.",
+      "topic": "SLAM",
+      "md_row": "|**2025-10-21**|**VAR-SLAM: Visual Adaptive and Robust SLAM for Dynamic Environments**|João Carlos Virgolino Soares et al.|[2510.16205v1](http://arxiv.org/abs/2510.16205v1)|\n"
+    },
+    "2509.01584": {
+      "date": "2025-09-03",
+      "title": "ViSTA-SLAM: Visual SLAM with Symmetric Two-view Association",
+      "url": "http://arxiv.org/abs/2509.01584v1",
+      "paper_id": "2509.01584v1",
+      "authors": "Ganlin Zhang, Shenhan Qian, Xi Wang, Daniel Cremers",
+      "first_author": "Ganlin Zhang",
+      "primary_category": "cs.CV",
+      "abstract": "We present ViSTA-SLAM as a real-time monocular visual SLAM system that operates without requiring camera intrinsics, making it broadly applicable across diverse camera setups. At its core, the system employs a lightweight symmetric two-view association (STA) model as the frontend, which simultaneously estimates relative camera poses and regresses local pointmaps from only two RGB images. This design reduces model complexity significantly, the size of our frontend is only 35\\% that of comparable state-of-the-art methods, while enhancing the quality of two-view constraints used in the pipeline. In the backend, we construct a specially designed Sim(3) pose graph that incorporates loop closures to address accumulated drift. Extensive experiments demonstrate that our approach achieves superior performance in both camera tracking and dense 3D reconstruction quality compared to current methods. Github repository: https://github.com/zhangganlin/vista-slam",
+      "topic": "SLAM",
+      "md_row": "|**2025-09-03**|**ViSTA-SLAM: Visual SLAM with Symmetric Two-view Association**|Ganlin Zhang et al.|[2509.01584v1](http://arxiv.org/abs/2509.01584v1)|\n"
+    },
+    "2412.12392": {
+      "date": "2025-06-03",
+      "title": "MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors",
+      "url": "http://arxiv.org/abs/2412.12392v2",
+      "paper_id": "2412.12392v2",
+      "authors": "Riku Murai, Eric Dexheimer, Andrew J. Davison",
+      "first_author": "Riku Murai",
+      "primary_category": "cs.CV",
+      "abstract": "We present a real-time monocular dense SLAM system designed bottom-up from MASt3R, a two-view 3D reconstruction and matching prior. Equipped with this strong prior, our system is robust on in-the-wild video sequences despite making no assumption on a fixed or parametric camera model beyond a unique camera centre. We introduce efficient methods for pointmap matching, camera tracking and local fusion, graph construction and loop closure, and second-order global optimisation. With known calibration, a simple modification to the system achieves state-of-the-art performance across various benchmarks. Altogether, we propose a plug-and-play monocular SLAM system capable of producing globally-consistent poses and dense geometry while operating at 15 FPS.",
+      "topic": "SLAM",
+      "md_row": "|**2025-06-03**|**MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors**|Riku Murai et al.|[2412.12392v2](http://arxiv.org/abs/2412.12392v2)|\n"
+    },
+    "2510.04612": {
+      "date": "2025-10-07",
+      "title": "OKVIS2-X: Open Keyframe-based Visual-Inertial SLAM Configurable with Dense Depth or LiDAR, and GNSS",
+      "url": "http://arxiv.org/abs/2510.04612v1",
+      "paper_id": "2510.04612v1",
+      "authors": "Simon Boche, Jaehyung Jung, Sebastián Barbas Laina, Stefan Leutenegger",
+      "first_author": "Simon Boche",
+      "primary_category": "cs.RO",
+      "abstract": "To empower mobile robots with usable maps as well as highest state estimation accuracy and robustness, we present OKVIS2-X: a state-of-the-art multi-sensor Simultaneous Localization and Mapping (SLAM) system building dense volumetric occupancy maps, while scalable to large environments and operating in realtime. Our unified SLAM framework seamlessly integrates different sensor modalities: visual, inertial, measured or learned depth, LiDAR and Global Navigation Satellite System (GNSS) measurements. Unlike most state-of-the-art SLAM systems, we advocate using dense volumetric map representations when leveraging depth or range-sensing capabilities. We employ an efficient submapping strategy that allows our system to scale to large environments, showcased in sequences of up to 9 kilometers. OKVIS2-X enhances its accuracy and robustness by tightly-coupling the estimator and submaps through map alignment factors. Our system provides globally consistent maps, directly usable for autonomous navigation. To further improve the accuracy of OKVIS2-X, we also incorporate the option of performing online calibration of camera extrinsics. Our system achieves the highest trajectory accuracy in EuRoC against state-of-the-art alternatives, outperforms all competitors in the Hilti22 VI-only benchmark, while also proving competitive in the LiDAR version, and showcases state of the art accuracy in the diverse and large-scale sequences from the VBR dataset.",
+      "topic": "SLAM",
+      "md_row": "|**2025-10-07**|**OKVIS2-X: Open Keyframe-based Visual-Inertial SLAM Configurable with Dense Depth or LiDAR, and GNSS**|Simon Boche et al.|[2510.04612v1](http://arxiv.org/abs/2510.04612v1)|\n"
+    }
+  },
+  "VIO": {
+    "2505.06748": {
+      "date": "2025-10-06",
+      "title": "Learned IMU Bias Prediction for Invariant Visual Inertial Odometry",
+      "url": "http://arxiv.org/abs/2505.06748v2",
+      "paper_id": "2505.06748v2",
+      "authors": "Abdullah Altawaitan, Jason Stanley, Sambaran Ghosal, Thai Duong, Nikolay Atanasov",
+      "first_author": "Abdullah Altawaitan",
+      "primary_category": "cs.RO",
+      "abstract": "Autonomous mobile robots operating in novel environments depend critically on accurate state estimation, often utilizing visual and inertial measurements. Recent work has shown that an invariant formulation of the extended Kalman filter improves the convergence and robustness of visual-inertial odometry by utilizing the Lie group structure of a robot's position, velocity, and orientation states. However, inertial sensors also require measurement bias estimation, yet introducing the bias in the filter state breaks the Lie group symmetry. In this paper, we design a neural network to predict the bias of an inertial measurement unit (IMU) from a sequence of previous IMU measurements. This allows us to use an invariant filter for visual inertial odometry, relying on the learned bias prediction rather than introducing the bias in the filter state. We demonstrate that an invariant multi-state constraint Kalman filter (MSCKF) with learned bias predictions achieves robust visual-inertial odometry in real experiments, even when visual information is unavailable for extended periods and the system needs to rely solely on IMU measurements.",
+      "topic": "VIO",
+      "md_row": "|**2025-10-06**|**Learned IMU Bias Prediction for Invariant Visual Inertial Odometry**|Abdullah Altawaitan et al.|[2505.06748v2](http://arxiv.org/abs/2505.06748v2)|\n"
+    },
+    "2506.04539": {
+      "date": "2025-06-06",
+      "title": "Olfactory Inertial Odometry: Sensor Calibration and Drift Compensation",
+      "url": "http://arxiv.org/abs/2506.04539v1",
+      "paper_id": "2506.04539v1",
+      "authors": "Kordel K. France, Ovidiu Daescu, Anirban Paul, Shalini Prasad",
+      "first_author": "Kordel K. France",
+      "primary_category": "cs.RO",
+      "abstract": "Visual inertial odometry (VIO) is a process for fusing visual and kinematic data to understand a machine's state in a navigation task. Olfactory inertial odometry (OIO) is an analog to VIO that fuses signals from gas sensors with inertial data to help a robot navigate by scent. Gas dynamics and environmental factors introduce disturbances into olfactory navigation tasks that can make OIO difficult to facilitate. With our work here, we define a process for calibrating a robot for OIO that generalizes to several olfaction sensor types. Our focus is specifically on calibrating OIO for centimeter-level accuracy in localizing an odor source on a slow-moving robot platform to demonstrate use cases in robotic surgery and touchless security screening. We demonstrate our process for OIO calibration on a real robotic arm and show how this calibration improves performance over a cold-start olfactory navigation task.",
+      "topic": "VIO",
+      "md_row": "|**2025-06-06**|**Olfactory Inertial Odometry: Sensor Calibration and Drift Compensation**|Kordel K. France et al.|[2506.04539v1](http://arxiv.org/abs/2506.04539v1)|\n"
+    },
+    "2506.23078": {
+      "date": "2025-07-01",
+      "title": "Event-based Stereo Visual-Inertial Odometry with Voxel Map",
+      "url": "http://arxiv.org/abs/2506.23078v1",
+      "paper_id": "2506.23078v1",
+      "authors": "Zhaoxing Zhang, Xiaoxiang Wang, Chengliang Zhang, Yangyang Guo, Zikang Yuan, Xin Yang",
+      "first_author": "Zhaoxing Zhang",
+      "primary_category": "cs.RO",
+      "abstract": "The event camera, renowned for its high dynamic range and exceptional temporal resolution, is recognized as an important sensor for visual odometry. However, the inherent noise in event streams complicates the selection of high-quality map points, which critically determine the precision of state estimation. To address this challenge, we propose Voxel-ESVIO, an event-based stereo visual-inertial odometry system that utilizes voxel map management, which efficiently filter out high-quality 3D points. Specifically, our methodology utilizes voxel-based point selection and voxel-aware point management to collectively optimize the selection and updating of map points on a per-voxel basis. These synergistic strategies enable the efficient retrieval of noise-resilient map points with the highest observation likelihood in current frames, thereby ensureing the state estimation accuracy. Extensive evaluations on three public benchmarks demonstrate that our Voxel-ESVIO outperforms state-of-the-art methods in both accuracy and computational efficiency.",
+      "topic": "VIO",
+      "md_row": "|**2025-07-01**|**Event-based Stereo Visual-Inertial Odometry with Voxel Map**|Zhaoxing Zhang et al.|[2506.23078v1](http://arxiv.org/abs/2506.23078v1)|\n"
+    },
+    "2508.10867": {
+      "date": "2025-08-15",
+      "title": "CVIRO: A Consistent and Tightly-Coupled Visual-Inertial-Ranging Odometry on Lie Groups",
+      "url": "http://arxiv.org/abs/2508.10867v1",
+      "paper_id": "2508.10867v1",
+      "authors": "Yizhi Zhou, Ziwei Kang, Jiawei Xia, Xuan Wang",
+      "first_author": "Yizhi Zhou",
+      "primary_category": "cs.RO",
+      "abstract": "Ultra Wideband (UWB) is widely used to mitigate drift in visual-inertial odometry (VIO) systems. Consistency is crucial for ensuring the estimation accuracy of a UWBaided VIO system. An inconsistent estimator can degrade localization performance, where the inconsistency primarily arises from two main factors: (1) the estimator fails to preserve the correct system observability, and (2) UWB anchor positions are assumed to be known, leading to improper neglect of calibration uncertainty. In this paper, we propose a consistent and tightly-coupled visual-inertial-ranging odometry (CVIRO) system based on the Lie group. Our method incorporates the UWB anchor state into the system state, explicitly accounting for UWB calibration uncertainty and enabling the joint and consistent estimation of both robot and anchor states. Furthermore, observability consistency is ensured by leveraging the invariant error properties of the Lie group. We analytically prove that the CVIRO algorithm naturally maintains the system's correct unobservable subspace, thereby preserving estimation consistency. Extensive simulations and experiments demonstrate that CVIRO achieves superior localization accuracy and consistency compared to existing methods.",
+      "topic": "VIO",
+      "md_row": "|**2025-08-15**|**CVIRO: A Consistent and Tightly-Coupled Visual-Inertial-Ranging Odometry on Lie Groups**|Yizhi Zhou et al.|[2508.10867v1](http://arxiv.org/abs/2508.10867v1)|\n"
+    }
+  },
+  "RNA_SS_predict": {
+    "2511.02622": {
+      "date": "2025-11-05",
+      "title": "Machine Learning for RNA Secondary Structure Prediction: a review of current methods and challenges",
+      "url": "http://arxiv.org/abs/2511.02622v1",
+      "paper_id": "2511.02622v1",
+      "authors": "Giuseppe Sacco, Giovanni Bussi, Guido Sanguinetti",
+      "first_author": "Giuseppe Sacco",
+      "primary_category": "q-bio.BM",
+      "abstract": "Predicting the secondary structure of RNA is a core challenge in computational biology, essential for understanding molecular function and designing novel therapeutics. The field has evolved from foundational but accuracy-limited thermodynamic approaches to a new data-driven paradigm dominated by machine learning and deep learning. These models learn folding patterns directly from data, leading to significant performance gains. This review surveys the modern landscape of these methods, covering single-sequence, evolutionary-based, and hybrid models that blend machine learning with biophysics. A central theme is the field's \"generalization crisis,\" where powerful models were found to fail on new RNA families, prompting a community-wide shift to stricter, homology-aware benchmarking. In response to the underlying challenge of data scarcity, RNA foundation models have emerged, learning from massive, unlabeled sequence corpora to improve generalization. Finally, we look ahead to the next set of major hurdles-including the accurate prediction of complex motifs like pseudoknots, scaling to kilobase-length transcripts, incorporating the chemical diversity of modified nucleotides, and shifting the prediction target from static structures to the dynamic ensembles that better capture biological function. We also highlight the need for a standardized, prospective benchmarking system to ensure unbiased validation and accelerate progress.",
+      "topic": "RNA_SS_predict",
+      "md_row": "|**2025-11-05**|**Machine Learning for RNA Secondary Structure Prediction: a review of current methods and challenges**|Giuseppe Sacco et al.|[2511.02622v1](http://arxiv.org/abs/2511.02622v1)|\n"
+    },
+    "2505.09087": {
+      "date": "2025-05-15",
+      "title": "A Comparative Review of RNA Language Models",
+      "url": "http://arxiv.org/abs/2505.09087v1",
+      "paper_id": "2505.09087v1",
+      "authors": "He Wang, Yikun Zhang, Jie Chen, Jian Zhan, Yaoqi Zhou",
+      "first_author": "He Wang",
+      "primary_category": "q-bio.BM",
+      "abstract": "Given usefulness of protein language models (LMs) in structure and functional inference, RNA LMs have received increased attentions in the last few years. However, these RNA models are often not compared against the same standard. Here, we divided RNA LMs into three classes (pretrained on multiple RNA types (especially noncoding RNAs), specific-purpose RNAs, and LMs that unify RNA with DNA or proteins or both) and compared 13 RNA LMs along with 3 DNA and 1 protein LMs as controls in zero-shot prediction of RNA secondary structure and functional classification. Results shows that the models doing well on secondary structure prediction often perform worse in function classification or vice versa, suggesting that more balanced unsupervised training is needed.",
+      "topic": "RNA_SS_predict",
+      "md_row": "|**2025-05-15**|**A Comparative Review of RNA Language Models**|He Wang et al.|[2505.09087v1](http://arxiv.org/abs/2505.09087v1)|\n"
+    },
+    "2403.00043": {
+      "date": "2025-07-15",
+      "title": "RiNALMo: General-Purpose RNA Language Models Can Generalize Well on Structure Prediction Tasks",
+      "url": "http://arxiv.org/abs/2403.00043v2",
+      "paper_id": "2403.00043v2",
+      "authors": "Rafael Josip Penić, Tin Vlašić, Roland G. Huber, Yue Wan, Mile Šikić",
+      "first_author": "Rafael Josip Penić",
+      "primary_category": "q-bio.BM",
+      "abstract": "While RNA has recently been recognized as an interesting small-molecule drug target, many challenges remain to be addressed before we take full advantage of it. This emphasizes the necessity to improve our understanding of its structures and functions. Over the years, sequencing technologies have produced an enormous amount of unlabeled RNA data, which hides a huge potential. Motivated by the successes of protein language models, we introduce RiboNucleic Acid Language Model (RiNALMo) to unveil the hidden code of RNA. RiNALMo is the largest RNA language model to date, with 650M parameters pre-trained on 36M non-coding RNA sequences from several databases. It can extract hidden knowledge and capture the underlying structure information implicitly embedded within the RNA sequences. RiNALMo achieves state-of-the-art results on several downstream tasks. Notably, we show that its generalization capabilities overcome the inability of other deep learning methods for secondary structure prediction to generalize on unseen RNA families.",
+      "topic": "RNA_SS_predict",
+      "md_row": "|**2025-07-15**|**RiNALMo: General-Purpose RNA Language Models Can Generalize Well on Structure Prediction Tasks**|Rafael Josip Penić et al.|[2403.00043v2](http://arxiv.org/abs/2403.00043v2)|\n"
+    }
+  }
+}

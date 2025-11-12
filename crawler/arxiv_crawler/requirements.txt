@@ -1,0 +1,4 @@
+# requirements.txt
+arxiv>=2.1.0
+argparse
+typing-extensions
